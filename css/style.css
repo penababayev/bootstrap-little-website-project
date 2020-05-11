@@ -166,11 +166,20 @@ body {
 }
 
 
+@media screen and (max-width:1150px)
+{
+    .section-1 .card {
+        width: 14rem;
+    }
+}
+
+
 @media screen and (max-width:768px)
 {
     .section-1 .card {
         width: 14rem;
     }
+ 
 
 
     .section-4 .col-md-7 img {
