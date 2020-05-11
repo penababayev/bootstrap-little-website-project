@@ -165,11 +165,30 @@ body {
     margin-top: 7%;
     font-size: 23px;
 }
+.inner{
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+.inner:hover img {
+    transform: scale(1.5);
+}
 
 .social i {
     color: #EF5651;
     font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:1150px)
@@ -192,6 +211,7 @@ body {
         width: 380px;
         
     }
+   
 }
 
 @media screen and (max-width: 320px){
